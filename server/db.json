@@ -1,0 +1,228 @@
+{
+  "students": [
+    {
+      "id": 3,
+      "firstName": "Clive",
+      "middleName": "Emanuel",
+      "lastName": "Bork",
+      "class": "33-CA-091",
+      "email": "deanna.troi@enterprise.com",
+      "phone": "555-333-3333",
+      "dateOfBirth": "2017-11-27T00:00:00",
+      "enteredAt": "03/03/2003",
+      "photo": "resources/images/3.png",
+      "averageScore": 1.71
+    },
+    {
+      "id": 4,
+      "firstName": "Bob",
+      "middleName": "Manny",
+      "lastName": "Miles",
+      "class": "33-CA-091",
+      "email": "mr.data@enterprise.com",
+      "phone": "555-444-4444",
+      "dateOfBirth": "1980-11-11T00:00:00",
+      "enteredAt": "03/03/2003",
+      "photo": "resources/images/2.png",
+      "averageScore": 4.71,
+      "classes": [
+        {
+          "Semester": "Fall 2017",
+          "Subject": "Front End development",
+          "Type": "Computer Science"
+        },
+        {
+          "Semester": "Summer 2017",
+          "Subject": "Introduction to databases",
+          "Type": "Computer Science"
+        },
+        {
+          "Semester": "Spring 2017",
+          "Subject": "NoSQL",
+          "Type": "Computer Science"
+        }
+      ]
+    },
+    {
+      "clientId": "Student-3",
+      "firstName": "Sue",
+      "middleName": "M",
+      "lastName": "Hillaryz",
+      "class": "33-A-B1",
+      "dateOfBirth": "01/01/1990",
+      "enteredAt": "03/03/2003",
+      "averageScore": 4,
+      "photo": "resources/images/1.png",
+      "id": 8,
+      "classes": [
+        {
+          "Semester": "Fall 2017",
+          "Subject": "Front End development",
+          "Type": "Computer Science"
+        },
+        {
+          "Semester": "Summer 2017",
+          "Subject": "Introduction to databases",
+          "Type": "Computer Science"
+        },
+        {
+          "Semester": "Spring 2017",
+          "Subject": "NoSQL",
+          "Type": "Computer Science"
+        }
+      ]
+    }
+  ],
+  "personnel": [
+    {
+      "id": 1,
+      "name": "Jean Luc",
+      "email": "jeanluc.picard@enterprise.com",
+      "phone": "555-111-1111"
+    },
+    {
+      "id": 2,
+      "name": "Worf",
+      "email": "worf.moghsson@enterprise.com",
+      "phone": "555-222-2222"
+    },
+    {
+      "id": 3,
+      "name": "Deanna",
+      "email": "deanna.troi@enterprise.com",
+      "phone": "555-333-3333"
+    },
+    {
+      "id": 4,
+      "name": "Data",
+      "email": "mr.data@enterprise.com",
+      "phone": "555-444-4444"
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "Title": "News 1",
+      "PublishedAt": "01/01/2011",
+      "ShortDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+      "Rating": "1000"
+    },
+    {
+      "id": 2,
+      "Title": "News 2",
+      "PublishedAt": "01/01/2011",
+      "ShortDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+      "Rating": "900"
+    },
+    {
+      "id": 3,
+      "Title": "News 3",
+      "PublishedAt": "01/01/2011",
+      "ShortDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+      "Rating": "800"
+    },
+    {
+      "id": 4,
+      "Title": "News 4",
+      "PublishedAt": "01/01/2011",
+      "ShortDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+      "Rating": "500"
+    },
+    {
+      "id": 5,
+      "Title": "News 5",
+      "PublishedAt": "01/01/2011",
+      "ShortDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+      "Rating": "600"
+    },
+    {
+      "id": 6,
+      "Title": "News 6",
+      "PublishedAt": "01/01/2011",
+      "ShortDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+      "Rating": "900"
+    }
+  ],
+  "articles": [
+    {
+      "author": "BBC News",
+      "title": "Turkey coup anniversary: Emotional Erdogan hails 'defenders of nation'",
+      "description": "Turkey's president thanks those who \"defended the nation\" against the coup attempt a year ago.",
+      "url": "http://www.bbc.co.uk/news/world-europe-40616488",
+      "urlToImage": "https://ichef.bbci.co.uk/images/ic/1024x576/p058sqrn.jpg",
+      "publishedAt": "2017-07-16T03:49:56Z"
+    },
+    {
+      "author": "BBC News",
+      "title": "Eight dead in wall collapse at Senegal's Demba Diop",
+      "description": "A wall collapsed during clashes following a League Cup final at Dakar's Demba Diop stadium.",
+      "url": "http://www.bbc.co.uk/news/world-africa-40621982",
+      "urlToImage": "https://ichef-1.bbci.co.uk/news/1024/cpsprodpb/FFE2/production/_96960556_senegal.jpg",
+      "publishedAt": "2017-07-16T00:33:34Z"
+    },
+    {
+      "author": "BBC News",
+      "title": "Chile turns chilly as Santiago hit by rare heavy snowfall",
+      "description": "A cold snap in Santiago leads to blackouts, leaving about 250,000 residents without power.",
+      "url": "http://www.bbc.co.uk/news/world-latin-america-40620077",
+      "urlToImage": "https://ichef.bbci.co.uk/images/ic/1024x576/p058smhv.jpg",
+      "publishedAt": "2017-07-15T20:44:18Z"
+    },
+    {
+      "author": "BBC News",
+      "title": "Ancient underwater forest found in US",
+      "description": "Scientists have dated the trees to a previous ice age 60,000 years ago, when sea levels were far lower.",
+      "url": "http://www.bbc.co.uk/news/av/world-us-canada-40575049/ancient-underwater-forest-found-in-us",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/cpsprodpb/7926/production/_96941013_p058qlx9.jpg",
+      "publishedAt": "2017-07-16T00:44:42Z"
+    },
+    {
+      "author": "BBC News",
+      "title": "Acid attack punishments assessed in government review",
+      "description": "There were more than 400 incidents in England and Wales in the six months to April 2017.",
+      "url": "http://www.bbc.co.uk/news/uk-40621303",
+      "urlToImage": "https://ichef.bbci.co.uk/images/ic/1024x576/p058qh4t.jpg",
+      "publishedAt": "2017-07-16T02:50:32Z"
+    },
+    {
+      "author": "BBC News",
+      "title": "US brides-to-be left dressless as Alfred Angelo folds",
+      "description": "US brides-to-be in the limbo as dressmaker folds.",
+      "url": "http://www.bbc.co.uk/news/av/world-us-canada-40622121/us-brides-to-be-left-dressless-as-alfred-angelo-folds",
+      "urlToImage": "https://ichef-1.bbci.co.uk/news/1024/cpsprodpb/CCC0/production/_96961425_p058tlp9.jpg",
+      "publishedAt": "2017-07-16T05:00:58Z"
+    },
+    {
+      "author": "BBC News",
+      "title": "Brazil protesters pelt politician with eggs at her wedding",
+      "description": "Maria Victoria Barros is forced to leave church in an armoured vehicle and protected by riot police.",
+      "url": "http://www.bbc.co.uk/news/world-latin-america-40622273",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/cpsprodpb/17E72/production/_96960979_capture.jpg",
+      "publishedAt": "2017-07-16T01:28:38Z"
+    },
+    {
+      "author": "BBC Sport",
+      "title": "Wimbledon 2017: Roger Federer going for eighth title against Marin Cilic in final",
+      "description": "Roger Federer will attempt to become the first man to win eight Wimbledon titles when he takes on Marin Cilic in Sunday's final.",
+      "url": "http://www.bbc.co.uk/sport/tennis/40618969",
+      "urlToImage": "http://ichef.bbci.co.uk/onesport/cps/624/cpsprodpb/DA7E/production/_96943955_040603509.jpg",
+      "publishedAt": "2017-07-15T17:13:47Z"
+    },
+    {
+      "author": "BBC News",
+      "title": "G20 Hamburg: Tag potential rioters, German interior minister says",
+      "description": "The government is seeking to prevent a repeat of rioting which marred the G20 summit in Hamburg.",
+      "url": "http://www.bbc.co.uk/news/world-europe-40620592",
+      "urlToImage": "https://ichef-1.bbci.co.uk/news/1024/cpsprodpb/CD54/production/_96946525_mediaitem96946523.jpg",
+      "publishedAt": "2017-07-15T16:48:05Z"
+    },
+    {
+      "author": "BBC News",
+      "title": "Maryam Mirzakhani, first woman to win maths' Fields Medal, dies",
+      "description": "Acclaimed Iranian mathematician Maryam Mirzakhani dies of breast cancer aged 40.",
+      "url": "http://www.bbc.co.uk/news/science-environment-40617094",
+      "urlToImage": "https://ichef-1.bbci.co.uk/news/1024/cpsprodpb/2278/production/_96942880_acbe7585-8073-4c30-a93a-559d4ae489a6.jpg",
+      "publishedAt": "2017-07-15T17:12:40Z"
+    }
+  ]
+}
